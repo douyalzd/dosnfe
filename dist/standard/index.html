@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>组件开发规范 | DOSN前端文档</title>
+    <meta name="description" content="DOSN前端组件帮助文档">
+    
+    
+    <link rel="preload" href="/assets/css/0.styles.ab32506f.css" as="style"><link rel="preload" href="/assets/js/app.18a74187.js" as="script"><link rel="preload" href="/assets/js/4.d7197347.js" as="script"><link rel="preload" href="/assets/js/21.d2bdd90c.js" as="script"><link rel="preload" href="/assets/js/11.7910597e.js" as="script"><link rel="prefetch" href="/assets/js/1.21462d1d.js"><link rel="prefetch" href="/assets/js/10.f3e98089.js"><link rel="prefetch" href="/assets/js/12.8381de3e.js"><link rel="prefetch" href="/assets/js/13.ce0cf0b0.js"><link rel="prefetch" href="/assets/js/14.b807e2d8.js"><link rel="prefetch" href="/assets/js/15.1a578387.js"><link rel="prefetch" href="/assets/js/16.2aee391d.js"><link rel="prefetch" href="/assets/js/17.405b0080.js"><link rel="prefetch" href="/assets/js/18.23147f03.js"><link rel="prefetch" href="/assets/js/19.1ae19814.js"><link rel="prefetch" href="/assets/js/20.9382d64e.js"><link rel="prefetch" href="/assets/js/22.593b6d34.js"><link rel="prefetch" href="/assets/js/5.2f06b360.js"><link rel="prefetch" href="/assets/js/6.d7a10578.js"><link rel="prefetch" href="/assets/js/7.a2d303c1.js"><link rel="prefetch" href="/assets/js/8.1e03901a.js"><link rel="prefetch" href="/assets/js/9.d93eecc1.js"><link rel="prefetch" href="/assets/js/vendors~notification.b107fc1e.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.ab32506f.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container no-sidebar"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">DOSN前端文档</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">主页</a></div><div class="nav-item"><a href="/cmpdocs/" class="nav-link">组件文档</a></div><div class="nav-item"><a href="/standard/" class="nav-link router-link-exact-active router-link-active">组件开发规范</a></div><div class="nav-item"><a href="/knowledge/" class="nav-link">知识库</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">主页</a></div><div class="nav-item"><a href="/cmpdocs/" class="nav-link">组件文档</a></div><div class="nav-item"><a href="/standard/" class="nav-link router-link-exact-active router-link-active">组件开发规范</a></div><div class="nav-item"><a href="/knowledge/" class="nav-link">知识库</a></div> <!----></nav>  <!----> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="组件开发规范"><a href="#组件开发规范" aria-hidden="true" class="header-anchor">#</a> 组件开发规范</h1> <hr> <h2 id="文档模板"><a href="#文档模板" aria-hidden="true" class="header-anchor">#</a> 文档模板</h2> <div class="language-md extra-class"><pre class="language-md"><code><span class="token title important"># 文档标题
+<span class="token punctuation">---</span></span>
+
+<span class="token title important"><span class="token punctuation">##</span> 属性</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Common-DemoApi</span> <span class="token attr-name">:apiData</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>attribute<span class="token punctuation">&quot;</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>attr<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+
+<span class="token title important"><span class="token punctuation">##</span> 事件</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Common-DemoApi</span> <span class="token attr-name">:apiData</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>events<span class="token punctuation">&quot;</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>event<span class="token punctuation">&quot;</span></span><span class="token punctuation">/&gt;</span></span>
+
+<span class="token title important"><span class="token punctuation">##</span> 方法</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Common-DemoApi</span> <span class="token attr-name">:apiData</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>method<span class="token punctuation">&quot;</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>method<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+
+<span class="token title important"><span class="token punctuation">##</span> 插槽</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Common-DemoApi</span> <span class="token attr-name">:apiData</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>slots<span class="token punctuation">&quot;</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>slot<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+    <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+        <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+            <span class="token keyword">return</span> <span class="token punctuation">{</span>
+                attribute<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+                    params<span class="token punctuation">:</span> <span class="token string">&quot;test&quot;</span><span class="token punctuation">,</span>
+                    describe<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+                    type<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+                    optionValue<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+                    defaultValue<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+                <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                events<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+                    eventName<span class="token punctuation">:</span> <span class="token string">&quot;test&quot;</span><span class="token punctuation">,</span>
+                    describe<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+                    cbparams<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+                <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                method<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+                    methods<span class="token punctuation">:</span> <span class="token string">&quot;test&quot;</span><span class="token punctuation">,</span>
+                    describe<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+                    cbparams<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+                <span class="token punctuation">}</span><span class="token punctuation">]</span><span class="token punctuation">,</span>
+                slots<span class="token punctuation">:</span> <span class="token punctuation">[</span><span class="token punctuation">{</span>
+                    name<span class="token punctuation">:</span> <span class="token string">&quot;test&quot;</span><span class="token punctuation">,</span>
+                    describe<span class="token punctuation">:</span> <span class="token string">&quot;&quot;</span><span class="token punctuation">,</span>
+                <span class="token punctuation">}</span><span class="token punctuation">]</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"><!----><!----></div></div>
+    <script src="/assets/js/app.18a74187.js" defer></script><script src="/assets/js/4.d7197347.js" defer></script><script src="/assets/js/21.d2bdd90c.js" defer></script><script src="/assets/js/11.7910597e.js" defer></script>
+  </body>
+</html>
