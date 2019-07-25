@@ -9,7 +9,7 @@
     "lint": "eslint --fix --ext .js,.vue docs/.vuepress"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "echarts": "^4.2.1",
     "element-ui": "^2.7.2",
     "highlight.js": "^9.12.0",
