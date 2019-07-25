@@ -2,12 +2,12 @@
 
 echo '开始执行命令'
 # 生成静态文件
-echo '执行命令：vuepress build .'
-vuepress build .
+echo '执行命令：vuepress build'
+npm run build
 
 # 进入生成的文件夹
 echo "执行命令：cd ./.vuepress/dist\n"
-cd /dist
+cd dist
 
 # 初始化一个仓库，仅仅是做了一个初始化的操作，项目里的文件还没有被跟踪
 echo "执行命令：git init\n"

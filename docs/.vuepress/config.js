@@ -2,7 +2,7 @@ const { fs, path } = require('@vuepress/shared-utils')
 
 module.exports = {
     title: 'DOSN前端文档', // 设置网站标题
-    base: '/dosnHelpDoc',
+    base: '/dosnHelpDoc/',
     description: 'DOSN前端组件帮助文档', // 描述
     dest: './dist', // 设置输出目录
     port: 2333, // 端口
