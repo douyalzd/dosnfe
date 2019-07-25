@@ -8,7 +8,7 @@ module.exports = {
     port: 2333, // 端口
     // theme: '@vuepress/vue',
     head: [
-        ['link',{rel:'shortcut icon',href: '/dosnfe/favicon.ico' }]
+        ['link',{rel:'shortcut icon',href: '/favicon.ico' }]
     ],
     themeConfig: { // 主题配置
     // 添加导航栏
