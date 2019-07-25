@@ -39,7 +39,8 @@ module.exports = {
     configureWebpack: {
         resolve: {
             alias: {
-                "@": path.join(__dirname, './src')
+                "@": path.join(__dirname, './src'),
+                "@img": path.join(__dirname, './public')
             }
         }
     }
