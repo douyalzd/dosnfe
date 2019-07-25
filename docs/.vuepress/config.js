@@ -2,11 +2,14 @@ const { fs, path } = require('@vuepress/shared-utils')
 
 module.exports = {
     title: 'DOSN前端文档', // 设置网站标题
-    base: '/dosnHelpDoc/',
+    base: '/dosnfe/',
     description: 'DOSN前端组件帮助文档', // 描述
     dest: './dist', // 设置输出目录
     port: 2333, // 端口
     // theme: '@vuepress/vue',
+    head: [
+        ['link',{rel:'shortcut icon',href: '/dosnfe/favicon.ico' }]
+    ],
     themeConfig: { // 主题配置
     // 添加导航栏
         nav: [
