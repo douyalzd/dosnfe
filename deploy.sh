@@ -22,10 +22,10 @@ echo "执行命令：commit -m 'deploy'"
 git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io
-# git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
+git push -f git@gitee.com:douyadg/dosnfe.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/douyalzd/dosnHelpDoc.git master:gh-pages
+git push -f git@github.com:douyalzd/dosnfe.git master:gh-pages
 
 # 返回到上一次的工作目录
 echo "回到刚才工作目录"

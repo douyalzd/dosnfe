@@ -2,7 +2,7 @@
 # 侧边栏弹窗
 ---
 
-![侧边栏弹窗](~@img/001.jpg)
+![侧边栏弹窗](~@/image/001.jpg)
 
 ## 属性
 <Common-DemoApi :apiData="attribute" type="attr" />
